@@ -45,7 +45,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Federico Pregnolato
             </Heading>
-            <p>Developer / Designer / Notion Architect</p>
+            <p>Developer / Designer / Solutions Architect</p>
           </Box>
           <Box
             flexShrink={0}
@@ -70,15 +70,11 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Federico is a freelance developer lorem ipsum dolor sit amet lorem
-            ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
-            sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
-            ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
-            sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
-            ipsum dolor sit amet lorem ipsum dolor sit amet{' '}
-            <NextLink href="/portfolio/project1">
+            Federico is a freelance and full-stack developer based in Rome with a passion for building digital products/services. He thrives on solving real-world problems and enjoys seeing a new project from planning to launch. When not coding, he tries new things and explores new fun stuff. 
+            Follow me on my journey to discover tech, coding, engineering, and design. {' '}
+            {/* <NextLink href="/portfolio/project1">
               <Link>Project 1</Link>
-            </NextLink>
+            </NextLink> */}
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/portfolio">
@@ -106,17 +102,17 @@ const Page = () => {
             Completed the Fullstack Open course from Helsinki University -
             Finland
           </BioSection>
-          <BioSection>
+          {/* <BioSection>
             <BioYear style={{ opacity: 0 }}>2021</BioYear>
             Completed the Notion Certified User certification
-          </BioSection>
+          </BioSection> */}
           <BioSection>
             <BioYear>2022</BioYear>
             Completed Bachelor&apos;s of Science in Business Management with
             Techonolgy emphasis at Brigham Young University - Idaho
           </BioSection>
           <BioSection>
-            <BioYear>2023 - Present</BioYear>
+            <BioYear>2022 - Present</BioYear>
             Works as freelance
           </BioSection>
         </Section>
@@ -133,7 +129,7 @@ const Page = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            On the web
+            Follow me
           </Heading>
           <List>
             <ListItem>

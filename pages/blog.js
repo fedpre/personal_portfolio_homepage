@@ -3,10 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbPost1 from '../public/images/placeholder.png'
-import thumbPost2 from '../public/images/placeholder.png'
-import thumbPost3 from '../public/images/placeholder.png'
-import thumbPost4 from '../public/images/placeholder.png'
+import thumbDataStructure from '../public/images/contents/blog-data-structures.png'
+import thumbPublishWebsite from '../public/images/contents/blog-publish-website.jpg'
+import thumb2MinuteRule from '../public/images/contents/blog-2-minute-rule.jpg'
+import thumbMastersJourney from '../public/images/contents/blog-master-journey.jpg'
 
 const Blog = () => (
   <Layout title="Blog Posts">
@@ -17,25 +17,25 @@ const Blog = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <GridItem
-            title="Post 1"
-            thumbnail={thumbPost1}
-            href="/"
+            title="Data Structure Tutorial"
+            thumbnail={thumbDataStructure}
+            href="https://github.com/fedpre/Data-Structure-Tutorial/blob/master/0-welcome.md"
           />
           <GridItem
-            title="Post 2"
-            thumbnail={thumbPost2}
-            href="/"
+            title="How to Publish a Website for FREE"
+            thumbnail={thumbPublishWebsite}
+            href="https://www.linkedin.com/pulse/how-publish-website-free-federico-pregnolato/"
           />
           <GridItem
-            title="Post 3"
-            thumbnail={thumbPost3}
-            href="/"
+            title="The 2-Minute Rule"
+            thumbnail={thumb2MinuteRule}
+            href="https://www.linkedin.com/pulse/2-minute-rule-federico-pregnolato/"
           />
           <GridItem
-            title="Post 4"
-            thumbnail={thumbPost4}
-            href="/"
-          />
+            title="The Master's Journey"
+            thumbnail={thumbMastersJourney}
+            href="https://www.linkedin.com/pulse/masters-journey-federico-pregnolato/"
+          /> 
         </SimpleGrid>
       </Section>
     </Container>

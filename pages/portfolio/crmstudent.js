@@ -11,7 +11,9 @@ const Work = () => {
         <Title>
           CRM Student App <Badge>2021</Badge>
         </Title>
-        <P>Description of the project</P>
+        <P>The Student CRM web application allows the user to register new student in a database and retrieve the list of all the students.
+
+The purpose of writing this sofwtare is to explore and learn more about React for the frontend, Spring Boot for the backend. and PostgreSQL for the database. I wanted to explore how a relational database would work in conjunction with Spring Boot. I wanted to get real-world experience with these tools that are industry-standard.</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>GitHub</Meta>
