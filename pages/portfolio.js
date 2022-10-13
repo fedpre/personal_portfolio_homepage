@@ -4,8 +4,8 @@ import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 // Change thumbnails with the ones I will use for my work
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbProject1 from '../public/images/placeholder.png'
+import thumbProject2 from '../public/images/placeholder.png'
 
 const Portfolio = () => {
   return (
@@ -17,36 +17,17 @@ const Portfolio = () => {
         {/* Change the thumbnails, titles, and descriptions to reflect my work */}
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.3}>
-            <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-              A markdown note-taking app with 100+ plugins, cross-platform and
-              encrypted data sync support
+            <WorkGridItem id="project1" title="project1" thumbnail={thumbProject1}>
+              Description of project 1
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem
-              id="walknote"
-              title="Walknote"
-              thumbnail={thumbWalknote}
+              id="project2"
+              title="project2"
+              thumbnail={thumbProject2}
             >
-              Music recommendation app for iOS
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="walknote"
-              title="Walknote"
-              thumbnail={thumbWalknote}
-            >
-              Music recommendation app for iOS
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="walknote"
-              title="Walknote"
-              thumbnail={thumbWalknote}
-            >
-              Music recommendation app for iOS
+              Description of project 2
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -59,19 +40,18 @@ const Portfolio = () => {
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={0.5}>
-            <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-              A markdown note-taking app with 100+ plugins, cross-platform and
-              encrypted data sync support
+        <Section delay={0.5}>
+            <WorkGridItem id="project1" title="project1" thumbnail={thumbProject1}>
+              Description of the project
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem
-              id="walknote"
-              title="Walknote"
-              thumbnail={thumbWalknote}
+              id="project2"
+              title="project2"
+              thumbnail={thumbProject2}
             >
-              Music recommendation app for iOS
+              Description of project 2
             </WorkGridItem>
           </Section>
         </SimpleGrid>

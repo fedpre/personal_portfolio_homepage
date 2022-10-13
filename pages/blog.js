@@ -3,10 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
-import thumbHowToUseInkdrop from '../public/images/contents/youtube-how-to-use-inkdrop.jpg'
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
-import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
+import thumbPost1 from '../public/images/placeholder.png'
+import thumbPost2 from '../public/images/placeholder.png'
+import thumbPost3 from '../public/images/placeholder.png'
+import thumbPost4 from '../public/images/placeholder.png'
 
 const Blog = () => (
   <Layout title="Blog Posts">
@@ -17,23 +17,23 @@ const Blog = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <GridItem
-            title="My Fish workflow"
-            thumbnail={thumbFishWorkflow}
+            title="Post 1"
+            thumbnail={thumbPost1}
             href="/"
           />
           <GridItem
-            title="My desk setup"
-            thumbnail={thumbMyDeskSetup}
+            title="Post 2"
+            thumbnail={thumbPost2}
             href="/"
           />
           <GridItem
-            title="How to Use Inkdrop"
-            thumbnail={thumbHowToUseInkdrop}
+            title="Post 3"
+            thumbnail={thumbPost3}
             href="/"
           />
           <GridItem
-            title="Build your Portfolio"
-            thumbnail={thumbPortfolio}
+            title="Post 4"
+            thumbnail={thumbPost4}
             href="/"
           />
         </SimpleGrid>
