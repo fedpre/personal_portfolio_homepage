@@ -6,39 +6,40 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="Project 1">
+    <Layout title="CRM Student App">
       <Container>
         <Title>
-          Project 1 <Badge>2020</Badge>
+          CRM Student App <Badge>2021</Badge>
         </Title>
-        <P>
-          Description of the project
-        </P>
+        <P>Description of the project</P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://www.fedpregnolato.io/" target="_blank">
-            https://www.fedpregnolato.io/ <ExternalLinkIcon mx="2px" />
+            <Meta>GitHub</Meta>
+            <Link
+              href="https://github.com/fedpre/CRM-spring-boot-react"
+              target="_blank"
+            >
+              GitHub Repository <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows/macOS/Linux/Android</span>
+            <span>Web</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>NodeJS, React Native</span>
+            <span>Spring Boot, PostgreSQL, React</span>
           </ListItem>
           <ListItem>
-            <Meta>Blogpost</Meta>
-            <Link href="/">
-              Name of the blog post related to the app 
+            <Meta>Video</Meta>
+            <Link href="https://www.youtube.com/watch?v=73VZi1gOeiI">
+              Video walkthrough
               <ExternalLinkIcon mx="5px" />
             </Link>
           </ListItem>
         </List>
-        <WorkImage src="/images/placeholder.png" alt="Project 1" />
-        <WorkImage src="/images/placeholder.png" alt="Project 1" />
+        <WorkImage src="/images/works/crmstudent_02.png" alt="Project 1" />
+        <WorkImage src="/images/works/crmstudent_01.png" alt="Project 1" />
       </Container>
     </Layout>
   )

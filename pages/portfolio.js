@@ -4,8 +4,8 @@ import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 // Change thumbnails with the ones I will use for my work
-import thumbProject1 from '../public/images/placeholder.png'
-import thumbProject2 from '../public/images/placeholder.png'
+import thumbBetterBudgeting from '../public/images/works/betterbudget_02.png'
+import thumbCrmStudent from '../public/images/works/crmstudent_02.png'
 
 const Portfolio = () => {
   return (
@@ -17,17 +17,13 @@ const Portfolio = () => {
         {/* Change the thumbnails, titles, and descriptions to reflect my work */}
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.3}>
-            <WorkGridItem id="project1" title="project1" thumbnail={thumbProject1}>
-              Description of project 1
-            </WorkGridItem>
-          </Section>
-          <Section>
             <WorkGridItem
-              id="project2"
-              title="project2"
-              thumbnail={thumbProject2}
+              id="crmstudent"
+              title="CRM Student App"
+              thumbnail={thumbCrmStudent}
             >
-              Description of project 2
+              Customer software for higher education institution to register,
+              retrieve, and track students.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -40,18 +36,14 @@ const Portfolio = () => {
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-            <WorkGridItem id="project1" title="project1" thumbnail={thumbProject1}>
-              Description of the project
-            </WorkGridItem>
-          </Section>
-          <Section>
+          <Section delay={0.3}>
             <WorkGridItem
-              id="project2"
-              title="project2"
-              thumbnail={thumbProject2}
+              id="betterbudget"
+              title="Better Budget"
+              thumbnail={thumbBetterBudgeting}
             >
-              Description of project 2
+              Educational software for high school kids to learn good financial
+              habits.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
