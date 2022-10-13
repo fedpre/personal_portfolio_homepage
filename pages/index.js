@@ -188,7 +188,7 @@ const Page = () => {
           <SimpleGrid columns={[1, 2, 2]} gap={6}>
             <GridItem
               href="https://www.youtube.com/channel/UCM6BEBd-x7GSsI5xqU_E91A"
-              title="Federico Pregnolato"
+              title="FeDEV"
               thumbnail={thumbYouTube}
             >
               My YouTube channel
