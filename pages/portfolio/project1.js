@@ -6,20 +6,19 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="Inkdrop">
+    <Layout title="Project 1">
       <Container>
         <Title>
-          Inkdrop <Badge>2016</Badge>
+          Project 1 <Badge>2020</Badge>
         </Title>
         <P>
-          A markdown note-taking app with 100+ plugins, cross-platform and
-          encrypted data sync support. Lime-time revenue: $200k.
+          Description of the project
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://www.inkdrop.app/" target="_blank">
-              https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://www.fedpregnolato.io/" target="_blank">
+            https://www.fedpregnolato.io/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -28,7 +27,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>NodeJS, Electron, React Native</span>
+            <span>NodeJS, React Native</span>
           </ListItem>
           <ListItem>
             <Meta>Blogpost</Meta>
@@ -38,8 +37,8 @@ const Work = () => {
             </Link>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-        <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+        <WorkImage src="/images/placeholder.png" alt="Project 1" />
+        <WorkImage src="/images/placeholder.png" alt="Project 1" />
       </Container>
     </Layout>
   )
