@@ -1,7 +1,15 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import {
+  Container,
+  Heading,
+  SimpleGrid,
+  Box,
+  Button
+} from '@chakra-ui/react'
+import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
 import thumbDataStructure from '../public/images/contents/blog-data-structures.png'
 import thumbPublishWebsite from '../public/images/contents/blog-publish-website.jpg'
@@ -35,9 +43,16 @@ const Posts = () => (
             title="The Master's Journey"
             thumbnail={thumbMastersJourney}
             href="https://www.linkedin.com/pulse/masters-journey-federico-pregnolato/"
-          /> 
+          />
         </SimpleGrid>
       </Section>
+      <Box align="center" my={4}>
+        <NextLink href="https://blog.fedpregnolato.io" target="_blank">
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            Go to blog
+          </Button>
+        </NextLink>
+      </Box>
     </Container>
   </Layout>
 )
