@@ -6,6 +6,8 @@ import Layout from '../components/layouts/article'
 // Change thumbnails with the ones I will use for my work
 import thumbBetterBudgeting from '../public/images/works/betterbudget_02.png'
 import thumbCrmStudent from '../public/images/works/crmstudent_02.png'
+import thumbPhpMotors from '../public/images/works/phpmotors_01.png'
+import thumbBankingApp from '../public/images/works/bankingapp_01.png'
 import thumbFinanceTrackerNotion from '../public/images/works/financial_tracker_notion_01.png'
 
 const Portfolio = () => {
@@ -25,6 +27,26 @@ const Portfolio = () => {
             >
               Customer software for higher education institution to register,
               retrieve, and track students.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem
+              id="phpmotors"
+              title="PHPMotors Website"
+              thumbnail={thumbPhpMotors}
+            >
+              PHP-based website for a car dealer with advanced search and
+              logistic management functionalities.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem
+              id="bankingapp"
+              title="Android Banking App"
+              thumbnail={thumbBankingApp}
+            >
+              Banking app to help you manage your finances and stay withing your
+              budget.
             </WorkGridItem>
           </Section>
         </SimpleGrid>

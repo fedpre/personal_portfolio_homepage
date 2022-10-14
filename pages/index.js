@@ -192,7 +192,7 @@ const Page = () => {
           </SimpleGrid>
 
           <Box align="center" my={4}>
-            <NextLink href="/blog">
+            <NextLink href="/posts">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 Popular posts
               </Button>

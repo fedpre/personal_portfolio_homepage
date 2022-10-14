@@ -8,7 +8,7 @@ import thumbPublishWebsite from '../public/images/contents/blog-publish-website.
 import thumb2MinuteRule from '../public/images/contents/blog-2-minute-rule.jpg'
 import thumbMastersJourney from '../public/images/contents/blog-master-journey.jpg'
 
-const Blog = () => (
+const Posts = () => (
   <Layout title="Blog Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -42,4 +42,4 @@ const Blog = () => (
   </Layout>
 )
 
-export default Blog
+export default Posts
