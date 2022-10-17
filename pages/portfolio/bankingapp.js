@@ -39,7 +39,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Kotlin, Firebase</span>
+            <span>Kotlin, Firebase, Firestore</span>
           </ListItem>
           <ListItem>
             <Meta>Video</Meta>

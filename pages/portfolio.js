@@ -24,6 +24,7 @@ const Portfolio = () => {
               id="crmstudent"
               title="CRM Student App"
               thumbnail={thumbCrmStudent}
+              stack={["React", "Spring Boot", "PostgreSQL"]}
             >
               Customer software for higher education institution to register,
               retrieve, and track students.
@@ -34,6 +35,7 @@ const Portfolio = () => {
               id="phpmotors"
               title="PHPMotors Website"
               thumbnail={thumbPhpMotors}
+              stack={["PHP", "HTML", "CSS", "MySQL"]}
             >
               PHP-based website for a car dealer with advanced search and
               logistic management functionalities.
@@ -44,6 +46,7 @@ const Portfolio = () => {
               id="bankingapp"
               title="Android Banking App"
               thumbnail={thumbBankingApp}
+              stack={["Kotlin", "Firebase", "Firestore"]}
             >
               Banking app to help you manage your finances and stay withing your
               budget.
@@ -64,6 +67,7 @@ const Portfolio = () => {
               id="betterbudget"
               title="Better Budget"
               thumbnail={thumbBetterBudgeting}
+              stack={["NodeJS", "React Native", "MongoDB"]}
             >
               Educational software for high school kids to learn good financial
               habits.
@@ -84,6 +88,7 @@ const Portfolio = () => {
               id="financialtrackernotion"
               title="Financial Tracker - Notion"
               thumbnail={thumbFinanceTrackerNotion}
+              stack={["Notion Template"]}
             >
               Manage all your finances in Notion.
             </WorkGridItem>
