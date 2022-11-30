@@ -107,13 +107,13 @@ const Page = () => {
             Completed the Notion Certified User certification
           </BioSection> */}
           <BioSection>
-            <BioYear>2022</BioYear>
+            <BioYear>2023</BioYear>
             Completed Bachelor&apos;s of Science in Business Management with
             Techonolgy emphasis at Brigham Young University - Idaho
           </BioSection>
           <BioSection>
-            <BioYear>2022 - Present</BioYear>
-            Works as freelance
+            <BioYear>Present</BioYear>
+            Looking for an awesome company to join!
           </BioSection>
         </Section>
 
