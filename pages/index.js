@@ -70,7 +70,7 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Federico is a freelance and full-stack developer based in Rome with a passion for building digital products/services. He thrives on solving real-world problems and enjoys seeing a new project from planning to launch. When not coding, he tries new things and explores new fun stuff. 
+            Federico is a full-stack developer based in Rome with a passion for building digital products/services. He thrives on solving real-world problems and enjoys seeing a new project from planning to launch. When not coding, he tries new things and explores new fun stuff. 
             Follow me on my journey to discover tech, coding, engineering, and design. {' '}
             {/* <NextLink href="/portfolio/project1">
               <Link>Project 1</Link>
@@ -113,7 +113,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>Present</BioYear>
-            Looking for an awesome company to join!
+            Mobile & Full Stack Developer @ <Link href="https://moveshelf.com/" target="_blank">Moveshelf</Link>
           </BioSection>
         </Section>
 
