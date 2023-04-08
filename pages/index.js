@@ -199,7 +199,7 @@ const Page = () => {
             </NextLink>
           </Box>
           <Box align="center" my={4}>
-           <span style={{ "color": "#444", "fontSize": "12px"}}>© 2022 Federico Pregnolato. All rights reserved.</span>
+           <span style={{ "color": "#444", "fontSize": "12px"}}>© 2023 Federico Pregnolato. All rights reserved.</span>
           </Box>
         </Section>
       </Container>
