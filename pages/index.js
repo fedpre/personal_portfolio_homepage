@@ -70,8 +70,12 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Federico is a full-stack developer based in Rome with a passion for building digital products/services. He thrives on solving real-world problems and enjoys seeing a new project from planning to launch. When not coding, he tries new things and explores new fun stuff. 
-            Follow me on my journey to discover tech, coding, engineering, and design. {' '}
+            Federico is a full-stack developer based in Rome with a passion for
+            building digital products/services. He thrives on solving real-world
+            problems and enjoys seeing a new project from planning to launch.
+            When not coding, he tries new things and explores new fun stuff.
+            Follow me on my journey to discover tech, coding, engineering, and
+            design.{' '}
             {/* <NextLink href="/portfolio/project1">
               <Link>Project 1</Link>
             </NextLink> */}
@@ -102,18 +106,24 @@ const Page = () => {
             Completed the Fullstack Open course from Helsinki University -
             Finland
           </BioSection>
-          {/* <BioSection>
-            <BioYear style={{ opacity: 0 }}>2021</BioYear>
-            Completed the Notion Certified User certification
-          </BioSection> */}
           <BioSection>
             <BioYear>2023</BioYear>
             Completed Bachelor&apos;s of Science in Business Management with
             Techonolgy emphasis at Brigham Young University - Idaho
           </BioSection>
           <BioSection>
+            <BioYear>2023</BioYear>
+            Mobile & Full Stack Developer @{' '}
+            <Link href="https://moveshelf.com/" target="_blank">
+              Moveshelf
+            </Link>
+          </BioSection>
+          <BioSection>
             <BioYear>Present</BioYear>
-            Mobile & Full Stack Developer @ <Link href="https://moveshelf.com/" target="_blank">Moveshelf</Link>
+            Software Engineer @{' '}
+            <Link href="https://www.travelpass.com/" target="_blank">
+              Travelpass
+            </Link>
           </BioSection>
         </Section>
 
@@ -199,7 +209,9 @@ const Page = () => {
             </NextLink>
           </Box>
           <Box align="center" my={4}>
-           <span style={{ "color": "#444", "fontSize": "12px"}}>© 2023 Federico Pregnolato. All rights reserved.</span>
+            <span style={{ color: '#444', fontSize: '12px' }}>
+              © 2023 Federico Pregnolato. All rights reserved.
+            </span>
           </Box>
         </Section>
       </Container>
